@@ -1,0 +1,5 @@
+f = open("mukki2.txt","a")
+f.write("\n i am mukul singh \n ")
+f.close()
+f = open("mukki2.txt","r")
+print(f.read())
